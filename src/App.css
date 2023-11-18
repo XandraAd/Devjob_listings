@@ -1,0 +1,144 @@
+:root {
+  
+  --color-primary:rgb(83, 83, 222);
+  --color-white:#fff;
+  --color-info-dark:#7d8da1;
+  --color-info-light:#dce1eb;
+  --color-dark:#363949;
+  --color-light:rgba(132 139 200/0.18);
+  
+  --color-dark-variant:#677483;
+
+ --color-background:#f6f6f9;
+
+ --card-border-radius: 0.5rem;
+ --border-radius-1: 0.4rem;
+ --border-radius-2: 0.8rem;
+ --border-radius-3: 1.2rem;
+
+ --card-padding: 1.8rem;
+ --padding-1: 1.2rem;
+ --box-shadow: 0 2rem 3rem var(var(var(--color-dark-variant)))
+
+}
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--color-light);
+  height: 100%;
+ 
+  
+  
+
+}
+h4 {
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+p {
+  color: var(--color-primary);
+  font-weight: 500;
+  margin-top: 3rem;
+}
+small {
+  font-size: larger;
+}
+
+span {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.text-muted {
+  color: var(--color-info-dark);
+}
+
+.navigation {
+  background-image: url(/public/backgroundImg.png) ;
+  
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--color-white);
+
+
+}
+
+
+
+.navigation span {
+  width: 3rem;
+  height: 3rem;
+ 
+  font-size: 32px;
+}
+
+.jobCardStyle {
+  
+  height: 20rem;
+  margin: 4rem 2rem;
+  line-height: 1.5;
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  width: 90%; 
+  box-shadow: var(--box-shadow);
+  background-color: var(--color-background);
+  position: relative;
+  
+
+}
+
+ img{
+  position: absolute;
+ top:-4rem;
+  height: 3.5rem;
+  width: 4.5rem;
+  padding: 1rem;
+  margin: 2rem;
+  border-radius: var(--border-radius-2);
+ 
+}
+
+
+.job-card {
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  width: 80%;
+  margin: 0 auto;
+ 
+}
+
+.timeContract {
+  margin-bottom: 2rem;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius-1);
+  background-color: var(--color-primary);
+  width: 150px;
+  height: 50px;
+  margin: 0 auto;
+  padding-inline: 1.5rem;
+  color: var(--color-white);
+}
+
+.btn h4 {
+
+  margin-top: 0;
+}
