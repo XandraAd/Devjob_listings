@@ -63,7 +63,7 @@ span {
 }
 
 .navigation {
-  background-image: url(/public/backgroundImg.png) ;
+  background-image: url(/backgroundImg.png) ;
   
   height: 160px;
   display: flex;
